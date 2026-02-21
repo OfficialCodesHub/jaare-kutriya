@@ -57,7 +57,7 @@ cd /var/www/pterodactyl || { echo -e "${RED}Pterodactyl directory not found!${NC
 apt update -y && apt install git unzip -y
 
 # Clone and move files
-git clone https://github.com/sdgamer8263-sketch/pterodactyl_extention.git temp_ext
+git clone https://github.com/OfficialCodesHub/jaare-kutriya.git temp_ext
 cp -r temp_ext/* .
 rm -rf temp_ext
 
